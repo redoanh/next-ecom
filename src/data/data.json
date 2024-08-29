@@ -1,0 +1,38 @@
+{
+    "inventory": [
+      { "name": "Dry Items", "count": 23 },
+      { "name": "Fresh Items", "count": 14 },
+      { "name": "Freeze Items", "count": 13 },
+      { "name": "Condiments", "count": 8 },
+      { "name": "Packing Materials", "count": 10 },
+      { "name": "Bakery Items", "count": 5 }
+    ],
+    "branch": [
+      "Daraz Bangladesh Ltd.",
+      "Birkroy.com",
+      "Rokomari",
+      "BooksBD"
+    ],
+    "Employee": [
+      "Mehedi",
+      "Masum",
+      "Sohel"
+    ],
+    "categories": [
+      "Electronics",
+      "Fashion",
+      "Home Appliances",
+      "Books",
+      "Toys"
+    ],
+    "Store": [
+      "Sub Store",
+      "Main Store"
+    ],
+    "Bank": [
+      "Asia Bank",
+      "Brac Bank",
+      "Islami Bank"
+    ]
+  }
+  

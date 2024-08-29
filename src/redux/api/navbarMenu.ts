@@ -1,0 +1,196 @@
+
+import { MdOutlineSecurity } from "react-icons/md";
+import { SiBookstack } from "react-icons/si";
+
+export const sideBarMenus = [
+  {
+    id: 1,
+    menuName: " Security",
+    menuNameBn: "Security",
+    icon: MdOutlineSecurity,
+    routeUrl: "",
+    isNewTap: 0,
+    childs: [
+      {
+        id: 1,
+        menuName: "1A0. Store Menu Role Mapping",
+        menuNameBn: "1A0. Store Menu Role Mapping",
+        routeUrl: "/security/role-mapping",
+        isNewTap: 0,
+        childs: [],
+      },
+      {
+        id: 2,
+        menuName: "1A1. User Registration",
+        menuNameBn: "1A1. User Registration",
+        routeUrl: "/security/user-registration",
+        isNewTap: 0,
+        childs: [],
+      },
+      {
+        id: 3,
+        menuName: "1A2. Menu Role",
+        menuNameBn: "1A2. Menu Role",
+        routeUrl: "/security/menu-role",
+        isNewTap: 0,
+        childs: [],
+      },
+      {
+        id: 4,
+        menuName: "1B1. Vms Menus",
+        menuNameBn: "1B1. Vms Menus",
+        routeUrl: "/security/vms-menus",
+        isNewTap: 0,
+        childs: [],
+      },
+      {
+        id: 5,
+        menuName: "1B2. Menus",
+        menuNameBn: "1B2. Menus",
+        routeUrl: "/security/menus",
+        isNewTap: 0,
+        childs: [],
+      },
+      {
+        id: 6,
+        menuName: "1B4. Model Permissions",
+        menuNameBn: "1B4. Model Permissions",
+        routeUrl: "/security/model-permissions",
+        isNewTap: 0,
+        childs: [],
+      },
+      {
+        id: 7,
+        menuName: "1Z. Audit Trails",
+        menuNameBn: "1Z. Audit Trails",
+        routeUrl: "/security/audit-trails",
+        isNewTap: 0,
+        childs: [],
+      },
+    ],
+  },
+  
+  {
+    id: 13,
+    menuName: "Books_bd",
+    menuNameBn: "Books_bd",
+    icon: SiBookstack,
+    routeUrl: "",
+    isNewTap: 0,
+    childs: [
+      {
+        id: 1,
+        menuName: "4A1/BB-B01A Order List",
+        menuNameBn: "4A1/BB-B01A Order List",
+        routeUrl: "/books_bd/order-list",
+        isNewTap: 0,
+        childs: [],
+      },
+      {
+        id: 2,
+        menuName: "4A2/BB 01D POS",
+        menuNameBn: "4A2/BB01D POS",
+        routeUrl: "/books_bd/pos",
+        isNewTap: 0,
+        childs: [],
+      },
+      {
+        id: 3,
+        menuName: "4A9/BB 01E/BB 03E Pkg Order Ready for Delivery",
+        menuNameBn: "4A9/BB 01E/BB 03E Pkg",
+        routeUrl: "/books_bd/package_order_list_for_delivery",
+        isNewTap: 0,
+        childs: [],
+      },
+      {
+        id: 4,
+        menuName: "Purchase Order",
+        menuNameBn: "Purchase Order",
+        routeUrl: "",
+        isNewTap: 0,
+        childs: [
+          {
+            id: 1,
+            menuName: "Purchase Order",
+            menuNameBn: "Purchase Order",
+            routeUrl: "/books_bd/purchase-orders",
+            isNewTap: 0,
+            childs: [],
+          },
+          {
+            id: 2,
+            menuName: "Purchase Order Approval",
+            menuNameBn: "Purchase Order Approval",
+            routeUrl: "/books_bd/purchase-order-approval",
+            isNewTap: 0,
+            childs: [],
+          },
+          {
+            id: 3,
+            menuName: "Assign Collector",
+            menuNameBn: "Assign Collector",
+            routeUrl: "/books_bd/assign-collector",
+            isNewTap: 0,
+            childs: [],
+          },
+        ],
+      },
+      {
+        id: 5,
+        menuName: "Multiple Image ",
+        menuNameBn: "Multiple Image ",
+        routeUrl: "/books_bd/image-add",
+        isNewTap: 0,
+        childs: [],
+      },
+    ],
+  },
+  
+    {
+      id: 13,
+      menuName: "Product Requsition",
+      menuNameBn: "Product Requsition",
+      icon: SiBookstack,
+      routeUrl: "",
+      isNewTap: 0,
+      childs: [
+        {
+          id: 7,
+          menuName: "Product requisition",
+          menuNameBn: "1Z. Audit Trails",
+          routeUrl: "/product-requisition",
+          isNewTap: 0,
+          childs: [],
+        },
+      ],
+    },
+
+    
+    {
+      id: 14,
+      menuName: "Purchase Requisition",
+      menuNameBn: "Purchase",
+      icon: SiBookstack,
+      routeUrl: "",
+      isNewTap: 0,
+      childs: [
+        {
+          id: 1,
+          menuName: "Index",
+          menuNameBn: "Index",
+          routeUrl: "/purchase_requisition",
+          isNewTap: 0,
+          childs: [],
+        },
+        {
+          id: 2,
+          menuName: "Create",
+          menuNameBn: "Create",
+          routeUrl: "/product-requisition",
+          isNewTap: 0,
+          childs: [],
+        },
+      ],
+    },
+  
+];

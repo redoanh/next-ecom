@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+list-head {
+  height: 45px !important;
+}
+list-head th {
+  background: #ffe5da !important;
+}
+
+table td {
+  padding: 5px 10px !important;
+}
+pagination-area {
+  margin: 10px 15px !important;
+}
+
+.bg-orange-thead {
+  background: linear-gradient(45deg, #ffbda1, #ffbda1);
+  color: #444;
+}
+.bg-orange-low {
+  background: linear-gradient(45deg, #ffdbcb, transparent);
+  color: #444;
+}
+
+.custom-input {
+  color: black;
+}
+
+.custom-input::placeholder {
+  color: black;
+}
+.background{
+  @apply col-span-3 pb-5 rounded bg-white shadow-md bg-[#064e3b]
+}
+.card{
+  @apply flex bg-[#fff7e6] hover:bg-[#fde68a] hover:cursor-pointer transition duration-300 ease-out h-20  rounded-md shadow-md overflow-hidden;
+}
+.childCard{
+  @apply flex pb-1 p-2 my-2 mr-3 h-12 items-center gap-4 bg-[#ffe7ba] rounded-sm shadow-md justify-between
+}
+.bookName{
+  @apply py-2 pr-2 flex overflow-hidden h-12 text-xs font-bold text-center
+}
